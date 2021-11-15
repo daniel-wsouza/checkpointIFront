@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>CheckPoint I Front End: Cidade Francisco Morato</title>
+
+<!-- ESTILO -->
+
+<style type="text/css">
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+
+html * {
+    margin: 0px;
+    padding: 0px;
+}
+
+.titulo{
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    color:aliceblue;
+    background-color: rgb(25, 157, 180);
+    padding: 20px;
+
+}
+
+.corpo{
+    background-image: url("./imagens/morato1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.resumo{
+    font-family: 'Saira', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgba(165, 169, 172, 0.75);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.principal{
+    text-align: left;
+}
+
+.video{
+    margin: 20px;
+}
+
+.curiosidades{
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    padding:20px;
+    margin: 50px 0;
+    color:aliceblue;
+    background-color: rgb(25, 157, 180);
+    border-radius: 20px;
+}
+
+.listacuriosidades{
+    font-family: 'Saira', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgba(165, 169, 172, 0.75);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.icones{
+
+    width: 4%;
+    margin: 30px 10px;
+}
+    </style>
+</head>
+
+<!-- CONTEUDOS -->
+
+<body class="corpo">
+    <header class="cabecalho">
+        <h1 class="titulo">Francisco Morato - SP</h1>
+    </header>
+
+    <main class="principal">
+
+<!-- resumo da cidade -->
+
+        <p class="resumo"> A cidade de <strong>Francisco Morato</strong> fica no estado de São Paulo,
+            localizada na região metropolitana (grande São Paulo). É uma cidade <strong>muito simples</strong>, 
+            sem grandes prédios, com pouca infraestrutura e com uma população que precisa muito ter uma 
+            melhor qualidade de vida e de incentivos do governo.
+        </p>
+
+<!-- video do youtube -->
+
+        <iframe class="video" width="1280" height="720" src="https://www.youtube.com/embed/_DqLzwXLrUE"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+<!-- curiosidades -->
+
+        <h2 class="curiosidades">Curiosidades</h2>
+        <ol class = "listacuriosidades">
+            <li>Francisco Morato é chamado também de cidade dormitório, pois grande parte da população trabalha em outras cidades, principalmente na capital de São Paulo e retorna para casa apenas no final do dia, para dormir;</li>
+            <li>A cidade sofre com trânsito, pois as ruas são estreitas e a cidade só possui um viaduto;</li>
+            <li>A cidade ganhou recentemente uma nova estação de trem, finalmente, algo muito desejado pelos moradores;</li>
+            <li>A cidade não possui cinema.</li>
+        </ol>
+    </main>
+
+<!-- Redes sociais -->
+
+    <footer class="rodape">
+        <a href="https://www.instagram.com/prefeiturademorato/?hl=pt-br" target="_blank">
+            <img src="./imagens/IconeInstagram.png" class="icones"></a>
+
+        <a href="https://www.youtube.com/c/CidadeRep%C3%B3rter/" target="_blank">
+            <img src="./imagens/IconeYoutube.png" class="icones"></a>
+    </footer>
+</body>
+
+</html>
